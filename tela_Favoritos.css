@@ -24,69 +24,12 @@ li {
     text-align: left;
     padding-bottom: 20px;
 }
-/* esta parte é para definir a posiçao do div primeira parte*/
-.primeira_parte {
-    position: absolute;
-    float: top;
-    margin: 10px;
-    top: 30px;
-    left: 15%;
-}
-
-/*esse é para distanciar os elementos da div primeira_parte */
-.primeira_parte ul li {
-    padding: 20px;
-    padding-top: 0px;
-    color: white;
-    font-size: 25px;
-}
-
-.caixaBusca {
-    background-color: white;
-    border:solid 1px;
-    border-radius: 15px;
-    width: 300px;
-    position: absolute;
-    float: top;
-    margin: 10px;
-    top: 44px;
-    left: 52%;
-    padding-left: 5px;
-    margin-left: 20px;
-}
-
-#caixa_busca {
-    float:left;
-    background-color: transparent;
-    padding-left: 5px;
-    font-style: italic;
-    font-size: 18px;
-    border:none;
-    height: 32px;
-    width: 260px;
-    color:aquamarine;
-}
 
 
-.segunda_parte {
-    position: absolute;
-    float: top;
-    margin: 10px;
-    top: 30px;
-    left: 75%;
-}
 
-.segunda_parte ul li {
-    padding: 20px;
-    padding-top: 0px;
-    color: white;
-    font-size: 25px;
-}
 
-h1  img {
-    width: 16%;
-    padding-left: 60px;
-}
+
+
 
 .topo ul li {
     display: inline-block;
@@ -124,68 +67,297 @@ body {
 
     .fav1 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
 
     .fav2 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav3 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav4 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav5 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav6 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav7 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav8 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
     
     .fav9 {
         background-color: #f86614;
-        margin: 20px;
+        margin: 0px;
         padding: 20px;
         margin-bottom: 200px;
     }
 }
 
+@media screen and (min-width:481px ) and (max-width: 768px){
+    .fav {
+        display: grid;
+        text-align: center;
+    }
+
+    iframe {
+        width: 300px;
+        height: 450px;
+    }
+
+    .fav1 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+
+    .fav2 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav3 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav4 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav5 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav6 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav7 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav8 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+    
+    .fav9 {
+        background-color: #f86614;
+        margin: 10px;
+        padding: 20px;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1279px){
+    .fav {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+    }
+
+    iframe {
+        width: 300px;
+        height: 450px;
+    }
+
+    .fav1 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+
+    .fav2 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav3 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav4 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav5 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav6 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav7 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav8 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav9 {
+        background-color: #f86614;
+        margin: 80px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .fav {
+        display: grid;
+        grid-template-columns: repeat(3,minmax(300px, 1000px));
+        text-align: center;
+    }
+
+    iframe {
+        width: 300px;
+        height: 450px;
+    }
+
+    .fav1 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-left: 20px;
+        margin-bottom: 200px;
+    }
+
+    .fav2 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav3 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav4 {
+        background-color: #f86614;
+        margin: 20px;
+        margin-left: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav5 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav6 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav7 {
+        background-color: #f86614;
+        margin: 20px;
+        margin-left: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav8 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+    
+    .fav9 {
+        background-color: #f86614;
+        margin: 20px;
+        padding: 50px;
+        margin-bottom: 200px;
+    }
+}
 
 
 button {
@@ -206,6 +378,296 @@ ul li button {
     visibility: hidden;
 }
 
+
+
+/*navbar*/
+
+
+@media screen and (min-width: 1280px){
+/* esta parte é para definir a posiçao do div primeira parte*/
+h1  img {
+    width: 16%;
+    padding-left: 60px;
+}
+
+.primeira_parte {
+    position: absolute;
+    float: top;
+    margin: 10px;
+    top: 30px;
+    left: 15%;
+}
+
+/*esse é para distanciar os elementos da div primeira_parte */
+.primeira_parte ul li {
+    padding: 20px;
+    padding-top: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.segunda_parte {
+    position: absolute;
+    float: top;
+    margin: 10px;
+    top: 30px;
+    left: 75%;
+}
+
+.segunda_parte ul li {
+    padding: 20px;
+    padding-top: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.caixaBusca {
+    background-color: white;
+    border:solid 1px;
+    border-radius: 15px;
+    width: 300px;
+    position: absolute;
+    float: top;
+    margin: 10px;
+    top: 44px;
+    left: 52%;
+    padding-left: 13px;
+    margin-left: 40px;
+}
+
+#caixa_busca {
+    float:left;
+    background-color: transparent;
+    padding-left: 13px;
+    font-style: italic;
+    font-size: 18px;
+    border:none;
+    height: 32px;
+    width: 260px;
+    color:aquamarine;
+}
+
+}
+
+
+@media screen and (min-width:1213px) and (max-width: 1279px){
+    h1  img {
+        width: 16%;
+        padding-left: 60px;
+    }
+    
+
+/* esta parte é para definir a posiçao do div primeira parte*/
+.primeira_parte {
+    position: absolute;
+    float: top;
+    margin: 10px;
+    top: 30px;
+    left: 15%;
+}
+
+/*esse é para distanciar os elementos da div primeira_parte */
+.primeira_parte ul li {
+    padding: 10px;
+    padding-top: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.segunda_parte {
+    position: absolute;
+    float: top;
+    margin: 10px;
+    top: 30px;
+    left: 75%;
+}
+
+.segunda_parte ul li {
+    padding: 10px;
+    padding-top: 0px;
+    color: white;
+    font-size: 25px;
+}
+
+.caixaBusca {
+    background-color: white;
+    border:solid 1px;
+    border-radius: 15px;
+    width: 300px;
+    position: absolute;
+    float: top;
+    margin: 10px;
+    top: 44px;
+    left: 52%;
+    padding-left: 13px;
+    margin-left: 40px;
+}
+
+#caixa_busca {
+    float:left;
+    background-color: transparent;
+    padding-left: 13px;
+    font-style: italic;
+    font-size: 18px;
+    border:none;
+    height: 32px;
+    width: 260px;
+    color:aquamarine;
+}
+}
+
+
+@media screen and (min-width:769px) and (max-width: 1212px){
+
+
+    h1  img {
+        width: 16%;
+        padding-left: 30px;
+    }
+    /* esta parte é para definir a posiçao do div primeira parte*/
+    .primeira_parte {
+        position: absolute;
+        float: top;
+        margin: 10px;
+        top: 30px;
+        left: 10%;
+    }
+    
+    /*esse é para distanciar os elementos da div primeira_parte */
+    .primeira_parte ul li {
+        padding: 10px;
+        padding-top: 0px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .segunda_parte {
+        position: absolute;
+        float: top;
+        margin: 10px;
+        top: 30px;
+        left: 72%;
+    }
+    
+    .segunda_parte ul li {
+        padding: 10px;
+        padding-top: 0px;
+        color: white;
+        font-size: 25px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .segunda_parte ul {
+        padding-left: 0px;
+    }
+    .caixaBusca {
+        background-color: white;
+        border:solid 1px;
+        border-radius: 15px;
+        width: 300px;
+        position: absolute;
+        float: top;
+        margin: 10px;
+        top: 44px;
+        left: 52%;
+        padding-left: 13px;
+        margin-left: 40px;
+    }
+    
+    #caixa_busca {
+        float:left;
+        background-color: transparent;
+        padding-left: 13px;
+        font-style: italic;
+        font-size: 18px;
+        border:none;
+        height: 32px;
+        width: 260px;
+        color:aquamarine;
+    }
+    .caixaBusca{
+        visibility: hidden;
+    }
+
+    
+}
+
+@media screen and (min-width:481px ) and (max-width: 768px){
+    h1  img {
+        width: 16%;
+        padding-left: 30px;
+    }
+    /* esta parte é para definir a posiçao do div primeira parte*/
+    .primeira_parte {
+        position: absolute;
+        float: top;
+        margin: 10px;
+        top: 30px;
+        left: 10%;
+    }
+    
+    /*esse é para distanciar os elementos da div primeira_parte */
+    .primeira_parte ul li {
+        padding: 10px;
+        padding-top: 0px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .segunda_parte {
+        position: absolute;
+        float: top;
+        margin: 10px;
+        top: 30px;
+        left: 72%;
+    }
+    
+    .segunda_parte ul li {
+        padding: 10px;
+        padding-top: 0px;
+        color: white;
+        font-size: 25px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .segunda_parte ul {
+        padding-left: 0px;
+    }
+    .caixaBusca {
+        background-color: white;
+        border:solid 1px;
+        border-radius: 15px;
+        width: 300px;
+        position: absolute;
+        float: top;
+        margin: 10px;
+        top: 44px;
+        left: 52%;
+        padding-left: 13px;
+        margin-left: 40px;
+    }
+    
+    #caixa_busca {
+        float:left;
+        background-color: transparent;
+        padding-left: 13px;
+        font-style: italic;
+        font-size: 18px;
+        border:none;
+        height: 32px;
+        width: 260px;
+        color:aquamarine;
+    }
+    .caixaBusca{
+        visibility: hidden;
+    }
+}
 
 
 /* rodape */
@@ -285,7 +747,11 @@ ul{
 
 
 /*responsive*/
-
+@media (max-width: 1100px) {
+	.footer{
+        width: 100%;
+	}
+  }
 @media (max-width: 1100px) {
 	.categories .covers {
 	  grid-template-columns: 1fr 1fr;
